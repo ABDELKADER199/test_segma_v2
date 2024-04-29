@@ -7,8 +7,8 @@
 body{
     background-color: rgb(24, 24, 24);
     direction: rtl;
-    width:1400px;
-    margin-right:60px;
+    width:90%;
+    margin: auto;
     box-sizing: border-box;
 }
 
@@ -16,9 +16,6 @@ body{
 
     body{
         background-color: rgb(24, 24, 24);
-        direction: rtl;
-        width:850px;
-        margin-right:60px;
 }
 }
 
@@ -26,9 +23,6 @@ body{
 
     body{
         background-color: rgb(24, 24, 24);
-        direction: rtl;
-        width:600px;
-        margin-right:60px;
 }
 }
 
@@ -36,10 +30,6 @@ body{
 
     body{
         background-color: rgb(24, 24, 24);
-        direction: rtl;
-        width:470px;
-        margin-right:60px;
-        box-sizing: border-box;
 }
 }
 
@@ -86,7 +76,7 @@ div.logo ul{
  /* small */
  @media (max-width:600px){
     div.logo{
-        width:40%
+        width:100%
     }
 
     .burrgar_menu{
@@ -98,7 +88,7 @@ div.logo ul{
 
  @media (max-width:740px){
     div.logo{
-        width:40%
+        width:100%
     }
 
     /* .burrgar_menu{
@@ -254,11 +244,12 @@ div.menu li a:hover{
 /* mid */
 
 @media (max-width:740px){
+    .contant{
+        width: 100%;
+    }
 
     .how_are{
         justify-content: center;
-        padding:20px;
-
         width:100%;
     }
     .container{
